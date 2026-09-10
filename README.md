@@ -1,5 +1,5 @@
-🧠 Tuberculosis Detection using CNN and Grad-CAM
-🎯 Objective
+# 🫁 **Tuberculosis Detection using CNN and Grad-CAM**
+🎯 **Objective**
 
 This project implements an end-to-end deep learning solution to detect Tuberculosis (TB) from chest X-ray images, providing real-time AI-assisted medical diagnosis and visual explainability.
 
