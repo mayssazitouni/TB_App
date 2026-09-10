@@ -1,5 +1,5 @@
 # 🫁 **Tuberculosis Detection using CNN and Grad-CAM**
-🎯 **Objective**
+# 🎯 **Objective**
 
 This project implements an end-to-end deep learning solution to detect Tuberculosis (TB) from chest X-ray images, providing real-time AI-assisted medical diagnosis and visual explainability.
 
@@ -99,15 +99,22 @@ To interpret the model's decisions, Grad-CAM heatmaps are generated for validati
 
 ```text
 TB_App/
-├── api.py                    # FastAPI backend server
-├── Front.py                  # Streamlit frontend user interface
-├── tb_cnn_model_best.keras   # Trained CNN model weights
-├── start.bat                 # Automated startup script for Windows
-├── requirements.txt          # Python project dependencies
-├── .gitignore                # Files and folders ignored by Git
-└── .streamlit/
-    └── config.toml           # Streamlit dark theme configuration
-
+├── __pycache__/                 # Fichiers cache Python
+├── .streamlit/
+│   └── config.toml             # Configuration du thème sombre Streamlit
+├── notebooks/                  # Dossier des notebooks et résultats d'entraînement
+│   ├── accuracy_loss_history.png # Graphique d'historique de précision/perte
+│   ├── explainability_gradcam.ipynb # Notebook d'explicabilité (Grad-CAM)
+│   ├── gradcam_examples.png    # Exemples d'images Grad-CAM
+│   ├── gradcam_mixed_examples.png # Exemples mixtes Grad-CAM
+│   └── training.ipynb          # Notebook d'entraînement du modèle CNN
+├── api.py                      # Serveur backend FastAPI
+├── Front.py                    # Interface utilisateur frontend Streamlit
+├── tb_cnn_model_best.keras     # Poids du modèle CNN entraîné
+├── README.md                   # Documentation du projet
+├── requirements.txt            # Dépendances du projet Python
+├── start.bat                   # Script de démarrage automatique pour Windows
+└── .gitignore                  # Fichiers et dossiers ignorés par Git
     ---
 
 ## 👩‍💻 Author
